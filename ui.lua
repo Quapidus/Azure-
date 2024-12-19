@@ -272,7 +272,7 @@ function Library:CreateWindow(hubname)
 
     toggle_Image.Name = "toggle_Image"
     toggle_Image.Parent = Toggle
-    toggle_Image.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    toggle_Image.BackgroundColor3 = Color3.fromRGB(0, 120, 225)
     toggle_Image.BackgroundTransparency = 1.000
     toggle_Image.BorderColor3 = Color3.fromRGB(0, 0, 0)
     toggle_Image.BorderSizePixel = 0
