@@ -427,10 +427,10 @@ function Library:CreateWindow(hubname)
 
     local ContainerGradients = Instance.new("UIGradient")
     ContainerGradients.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(100, 0, 0)),
-        ColorSequenceKeypoint.new(0.3, Color3.fromRGB(255, 0, 0)),
-        ColorSequenceKeypoint.new(0.7, Color3.fromRGB(255, 0, 0)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(100, 0, 0)),
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 120, 225)),
+        ColorSequenceKeypoint.new(0.3, Color3.fromRGB(0, 120, 225)),
+        ColorSequenceKeypoint.new(0.7, Color3.fromRGB(0, 120, 225)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 120, 225)),
     })
     ContainerGradients.Name = "ContainerGradients"
     ContainerGradients.Parent = Main_Container
